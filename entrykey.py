@@ -152,7 +152,7 @@ def main():
         #stdout.flush()
 
 if __name__ == '__main__':
-    print('💻 Read Config By KMKZ™ Tools\n* t.me/EstebanZxx\n* t.me/XDecrytorID\n==========================') 
+    print('Read Config By KMKZ™ Tools\n* t.me/EstebanZxx\n* t.me/XDecrytorID\n==========================') 
     args = sys.argv    
     file = args[1]
     if file.split('.')[1] == 'ssh':
