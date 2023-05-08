@@ -53,7 +53,7 @@ def receive_telegram_message(message: telebot.types.Message) -> Tuple[str, str]:
     
 @bot.message_handler(commands=['start']) 
 def welcome(message) :
-    bot.send_message(message.chat.id, "💻BOT AUTO DECRYPT By KMKZ™ Tools\n=================================\n•TNL\n•ZIV\n•SSH\n") 
+    bot.send_message(message.chat.id, "BOT AUTO DECRYPT By KMKZ™ Tools\n=================================\n•TNL\n•ZIV\n•SSH\n") 
 
 @bot.message_handler(commands=['menu']) 
 def menu(message) :
@@ -95,6 +95,6 @@ def handle_all_message(message):
         bot.reply_to(message, 'Pesan yang Anda kirimkan tidak valid.')
 
 print('BOT BERJALAN')
-print("JAGAN LUPA TURU 🗿") 
+print("JAGAN LUPA TURU") 
 bot.polling() 
 
